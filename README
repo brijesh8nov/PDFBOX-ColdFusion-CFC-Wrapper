@@ -1,0 +1,18 @@
+This Wrapper uses PDFBox library to PRINT to a default printer. 
+
+Extended the wrapper to specify the printer.
+
+1. Download PDFBOX.jar from http://pdfbox.apache.org/download.html, the file uses pdfbox-app-1.6.0.jar.
+
+2. Download JAVALOADER from http://javaloader.riaforge.org/
+
+3. Current version assumes the following Folder structure
+
+lib/pdfbox-app-1.6.0.jar
+javaloader/JavaLoader
+pdfbox.cfc
+pdfboxDemo.cfm
+
+
+
+To Do - Add configuration file for directories and reading the pdfbox version.
